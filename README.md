@@ -11,7 +11,7 @@ A personal homepage built using HTML, CSS, JavaScript, and Bootstrap. It include
 - Links to "About", "Projects", and "Contact" pages
 - A contact form with working inputs and a submit alert
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
