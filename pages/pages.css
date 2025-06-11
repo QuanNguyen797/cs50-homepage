@@ -1,0 +1,54 @@
+body{
+    font-family: "Outfit", sans-serif;
+}
+#mainNavbar{
+    padding: 0 10%;
+    background-color: #54c9ff;
+}
+
+.nav-link, .navbar-brand{
+    color: white;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.container{
+    margin-top: 100px;
+}
+h2{
+    color:#12a2e6;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery>div>p{
+    max-width: 300px;
+}
+
+.contact{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 70%;
+}
+
+img{
+    width: 150px;
+    height: 150px
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}

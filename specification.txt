@@ -1,0 +1,36 @@
+HTML tags:
+1. <nav> – for the navbar at the top.
+2. <section> – to separate the page into chunks like intro, about, form, etc.
+3. <div> – to help lay things out or group content.
+4. <h1> to <h4> – headings for different sections.
+5. <p> – for normal paragraph text.
+6. <form> – used in the contact section.
+7. <input> – for name, email, and gender fields.
+8. <select> and <option> – dropdown menu for visitor type.
+9. <textarea> – for users to type a message.
+10. <button> – submit button.
+11. <footer> – copyright at the bottom.
+12. <script> – for the JavaScript stuff.
+
+CSS selectors I used:
+- tag selectors like body, h1, form
+- class selectors like .upper, .form, .submitbtn
+- id selectors like #submit and #mainNavbar
+- nested selectors like .lower > div > h2
+- Bootstrap classes also helped with spacing and layout
+
+CSS properties I used:
+- background-color – for coloring sections
+- color – for text colors
+- padding – spacing inside elements
+- display – mostly flex
+- justify-content – for alignment
+(also used min-height, transition, font-family, etc.)
+
+Bootstrap:
+I used Bootstrap mainly for the navbar, the form layout, and just making everything look less ugly by default. Also helped with responsiveness on mobile.
+
+JavaScript:
+I added some simple JavaScript to show a pop-up alert when someone clicks submit, and to change the navbar color when you scroll or open the mobile menu.
+
+The site works on desktop and phone thanks to the flexbox model.

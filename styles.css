@@ -1,0 +1,125 @@
+body{
+    font-family: "Outfit", sans-serif;
+}
+h1{
+    font-weight: bold;
+}
+.upper{
+    min-height: 500px;
+    text-align: center;
+    background-image: url('pictures/sky.png');
+    color: rgb(12, 113, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.upper>div{
+    text-align: center;
+    color: rgb(101, 100, 100);
+    font-size: larger;
+    min-width: 50%;
+    max-width: 70%;
+    font-weight: bold;
+}
+.lower{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin: 0 100px;
+    flex-wrap: wrap;
+}
+
+.lower>div{
+    max-width: 300px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.lower>div>h2{
+    color:#12a2e6;
+}
+
+form{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 20px;
+    min-width: 50%;
+    background-color: white;
+}
+
+.form{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #bfdff9;
+}
+#mainNavbar.scrolled{
+    background-color: #54c9ff;
+    transition: all 0.3s ease-in-out;
+}
+.nav-link, .navbar-brand{
+    color: #12a2e6;
+}
+
+#mainNavbar.scrolled .nav-link,
+#mainNavbar.scrolled .navbar-brand {
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+#mainNavbar.showing {
+    background-color: #54c9ff;
+    transition: all 0.3s ease-in-out;
+}
+
+#mainNavbar.showing .nav-link,
+#mainNavbar.showing .navbar-brand {
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+body{
+    box-sizing: border-box;
+}
+.btn{
+    text-align: center;
+}
+footer{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #54c9ff;
+    color: white;
+}
+
+#submit{
+    background-color: #54c9ff;
+    color: white;
+}
+
+#submit:hover{
+    background-color: #0d6efd;
+}
+
+#mainNavbar{
+    padding: 0 10%;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.submitbtn{
+    display: flex;
+    justify-content: center;
+}
